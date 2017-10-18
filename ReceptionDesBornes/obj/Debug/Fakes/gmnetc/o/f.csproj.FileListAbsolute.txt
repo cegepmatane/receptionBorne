@@ -1,0 +1,11 @@
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\GMap.NET.Core.1.7.0.0.Fakes.xml
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\GMap.NET.Core.1.7.0.0.Fakes.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\GMap.NET.Core.1.7.0.0.Fakes.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\GMap.NET.Core.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\GMap.NET.WindowsPresentation.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\System.Data.SQLite.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\b\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\o\f.csprojResolveAssemblyReference.cache
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\o\GMap.NET.Core.1.7.0.0.Fakes.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Fakes\gmnetc\o\GMap.NET.Core.1.7.0.0.Fakes.pdb
