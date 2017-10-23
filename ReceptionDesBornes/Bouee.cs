@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReceptionDesBornesControleur
+namespace ReceptionDesBornes
 {
-    public class Class1
+    class Bouee
     {
+        public Bouee()
+        {
+
+        }
     }
 }

@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ReceptionDesBornes
 {
-    public partial class MainWindow : Window
+    /// <summary>
+    /// Logique d'interaction pour VueBoueDescription.xaml
+    /// </summary>
+    public partial class VueBoueDescription : Window
     {
-        public MainWindow()
+        public VueBoueDescription()
         {
             InitializeComponent();
-
-            VuePrincipaleControleur.getInstance().setVuePrincipale(this);
-        }
-
-        public void afficherListeBouee(List<Object> listeBouee)
-        {
-            foreach(Object bouee in listeBouee)
-            {
-
-            }
         }
     }
 }
