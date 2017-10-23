@@ -20,11 +20,19 @@ namespace ReceptionDesBornes
         private VuePrincipaleControleur()
         {
 
+
+            //construireVueListeBouee();
         }
 
         public void setVuePrincipale(MainWindow vuePrincipale)
         {
             this.vuePrincipale = vuePrincipale;
+        }
+
+        private void construireVueListeBouee(List<Object> listeBouee)
+        {
+            //Change Object par modele Bouee
+            vuePrincipale.afficherListeBouee(listeBouee);
         }
     }
 }

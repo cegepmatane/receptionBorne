@@ -26,9 +26,10 @@ namespace ReceptionDesBornes
 
         public void afficherListeBouee(List<Object> listeBouee)
         {
-            foreach(Object bouee in listeBouee)
+            //Change Object par modele Bouee
+            foreach (Object bouee in listeBouee)
             {
-
+                listBoxBouee.Items.Add("bouee.getNom()");
             }
         }
     }
