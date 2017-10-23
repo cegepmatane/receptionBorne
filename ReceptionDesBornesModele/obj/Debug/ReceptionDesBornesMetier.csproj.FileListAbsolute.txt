@@ -1,0 +1,4 @@
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornesModele\bin\Debug\ReceptionDesBornesModele.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornesModele\bin\Debug\ReceptionDesBornesModele.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornesModele\obj\Debug\ReceptionDesBornesModele.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornesModele\obj\Debug\ReceptionDesBornesModele.pdb

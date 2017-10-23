@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ReceptionDesBornesModele;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,15 +24,28 @@ namespace ReceptionDesBornes
             InitializeComponent();
 
             VuePrincipaleControleur.getInstance().setVuePrincipale(this);
+            VuePrincipaleControleur.getInstance().start();
+
+            listBoxBouee.MouseDoubleClick += ListBoxBouee_MouseDoubleClick;
         }
 
-        public void afficherListeBouee(List<Object> listeBouee)
+        private void ListBoxBouee_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            //Change Object par modele Bouee
-            foreach (Object bouee in listeBouee)
+            MessageBox.Show(e.Source.ToString());
+        }
+
+        public void afficherListeBouee(List<Bouee> listeBouee)
+        {
+            foreach (Bouee bouee in listeBouee)
             {
-                listBoxBouee.Items.Add("bouee.getNom()");
+                listBoxBouee.Items.Add(bouee.Nom);
             }
+        }
+
+        private void actionAfficherVueBoueDescription(object sender, RoutedEventArgs e)
+        {
+            //VueBoueDescription vueBoueDescription = new VueBoueDescription();
+            //vueBoueDescription.Show();
         }
     }
 }

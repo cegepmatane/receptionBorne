@@ -1,8 +1,11 @@
-﻿using System;
+﻿using ReceptionDesBornesModele;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace ReceptionDesBornes
 {
@@ -20,8 +23,20 @@ namespace ReceptionDesBornes
         private VuePrincipaleControleur()
         {
 
+        }
 
-            //construireVueListeBouee();
+        public void start()
+        {
+            List<Bouee> listeBoueeTest = new List<Bouee>();
+
+            for (int i = 0; i < 15; i++)
+            {
+                Bouee boueeTest = new Bouee("Bouée no" + i);
+                //MessageBox.Show(boueeTest.Nom);
+                listeBoueeTest.Add(boueeTest);
+            }
+
+            construireVueListeBouee(listeBoueeTest);
         }
 
         public void setVuePrincipale(MainWindow vuePrincipale)
@@ -29,9 +44,8 @@ namespace ReceptionDesBornes
             this.vuePrincipale = vuePrincipale;
         }
 
-        private void construireVueListeBouee(List<Object> listeBouee)
+        private void construireVueListeBouee(List<Bouee> listeBouee)
         {
-            //Change Object par modele Bouee
             vuePrincipale.afficherListeBouee(listeBouee);
         }
     }
