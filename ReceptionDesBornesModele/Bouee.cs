@@ -18,16 +18,133 @@ namespace ReceptionDesBornesModele
         private float dimension;
         private float pressionAtmospherique;
 
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
+
+        public float Longitude
+        {
+            get
+            {
+                return longitude;
+            }
+
+            set
+            {
+                longitude = value;
+            }
+        }
+
+        public float Latitude
+        {
+            get
+            {
+                return latitude;
+            }
+
+            set
+            {
+                latitude = value;
+            }
+        }
+
+        public float TemperatureEau
+        {
+            get
+            {
+                return temperatureEau;
+            }
+
+            set
+            {
+                temperatureEau = value;
+            }
+        }
+
+        public float TemperatureAir
+        {
+            get
+            {
+                return temperatureAir;
+            }
+
+            set
+            {
+                temperatureAir = value;
+            }
+        }
+
+        public float Salinite
+        {
+            get
+            {
+                return salinite;
+            }
+
+            set
+            {
+                salinite = value;
+            }
+        }
+
+        public float VitesseVent
+        {
+            get
+            {
+                return vitesseVent;
+            }
+
+            set
+            {
+                vitesseVent = value;
+            }
+        }
+
+        public float Dimension
+        {
+            get
+            {
+                return dimension;
+            }
+
+            set
+            {
+                dimension = value;
+            }
+        }
+
+        public float PressionAtmospherique
+        {
+            get
+            {
+                return pressionAtmospherique;
+            }
+
+            set
+            {
+                pressionAtmospherique = value;
+            }
+        }
+
         public Bouee(){}
 
         public Bouee(int id, float longitude, float latitude)
         {
-            this.id = id;
-            this.longitude = longitude;
-            this.latitude = latitude;
+            this.Id = id;
+            this.Longitude = longitude;
+            this.Latitude = latitude;
         }
 
-        public int getId()
+        /*public int getId()
         {
             return this.id;
         }
@@ -115,6 +232,8 @@ namespace ReceptionDesBornesModele
         public void setPressionAtmospherique(float pressionAtmospherique)
         {
             this.pressionAtmospherique = pressionAtmospherique;
-        }
+        }*/
+
+
     }
 }
