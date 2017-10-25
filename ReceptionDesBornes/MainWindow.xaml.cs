@@ -31,22 +31,23 @@ namespace ReceptionDesBornes
 
         private void ListBoxBouee_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            MessageBox.Show(listBoxBouee.SelectedItem.ToString());
+            //MessageBox.Show("" + ((ItemBouee)listBoxBouee.SelectedItem).Bouee.Id);
+
+            actionAfficherVueBoueDescription(((ItemBouee)listBoxBouee.SelectedItem).Bouee);
         }
 
         public void afficherListeBouee(List<Bouee> listeBouee)
         {
             foreach (Bouee bouee in listeBouee)
             {
-                //listBoxBouee.Items.Add(bouee.Id);
-                listBoxBouee.Items.Add(new Fra);
+                listBoxBouee.Items.Add(new ItemBouee() { Nom = "" + bouee.Id, Bouee = bouee});
             }
         }
 
-        private void actionAfficherVueBoueDescription(object sender, RoutedEventArgs e)
+        private void actionAfficherVueBoueDescription(Bouee bouee)
         {
-            //VueBoueDescription vueBoueDescription = new VueBoueDescription();
-            //vueBoueDescription.Show();
+            VueBoueDescription vueBoueDescription = new VueBoueDescription(bouee);
+            vueBoueDescription.Show();
         }
     }
 }

@@ -1,22 +1,3 @@
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csprojResolveAssemblyReference.cache
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\MainWindow.g.cs
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\App.g.cs
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.cache
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.lref
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe.config
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.pdb
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.dll
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\System.Data.SQLite.dll
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.pdb
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\MainWindow.baml
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.g.resources
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Properties.Resources.resources
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csproj.GenerateResource.Cache
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.exe
-C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.pdb
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe.config
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.pdb
@@ -35,3 +16,24 @@ D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesB
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csproj.CoreCompileInputs.cache
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.exe
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe.config
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\System.Data.SQLite.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csprojResolveAssemblyReference.cache
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\MainWindow.g.cs
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\App.g.cs
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.cache
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.lref
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\MainWindow.baml
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.g.resources
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Properties.Resources.resources
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csproj.GenerateResource.Cache
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.exe
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.pdb
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\VueBoueDescription.g.cs
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\VueBoueDescription.baml

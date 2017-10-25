@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="VueBoueDescription" Height="300" Width="300">
     <Grid>
-        
+        <Label x:Name="labelIdBoue" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="82"/>
     </Grid>
 </Window>

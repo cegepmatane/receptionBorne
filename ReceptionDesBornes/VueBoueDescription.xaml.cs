@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using ReceptionDesBornesModele;
+
 namespace ReceptionDesBornes
 {
     /// <summary>
@@ -19,9 +21,16 @@ namespace ReceptionDesBornes
     /// </summary>
     public partial class VueBoueDescription : Window
     {
-        public VueBoueDescription()
+        private Bouee bouee;
+        public VueBoueDescription(Bouee bouee)
         {
             InitializeComponent();
+
+            this.bouee = bouee;
+
+            labelIdBoue.Content = "" + bouee.Id;
         }
+
+
     }
 }

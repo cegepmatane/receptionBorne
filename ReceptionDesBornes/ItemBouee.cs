@@ -8,13 +8,9 @@ using ReceptionDesBornesModele;
 
 namespace ReceptionDesBornes
 {
-    class ItemBouee
+    public class ItemBouee
     {
-        public Bouee bouee { get; set; }
-
-        public ItemBouee(Bouee bouee)
-        {
-            this.bouee = bouee;
-        }
+        public string Nom { get; set; }
+        public Bouee Bouee { get; set; }
     }
 }
