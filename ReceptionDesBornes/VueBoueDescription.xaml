@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="VueBoueDescription" Height="300" Width="300">
     <Grid>
-        <Label x:Name="labelIdBoue" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="82"/>
+        <Label x:Name="labelIdBoue" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelLongitudeBoue" Content="Label" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelLatitudeBoue" Content="Label" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelTemperatureEauBoue" Content="Label" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelTemperatureAirBoue" Content="Label" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelSaliniteBoue" Content="Label" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelVitesseVentBoue" Content="Label" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelDimensionBoue" Content="Label" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
+        <Label x:Name="labelPressionAtmospheriqueBoue" Content="Label" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,-0.034" Width="274"/>
     </Grid>
 </Window>

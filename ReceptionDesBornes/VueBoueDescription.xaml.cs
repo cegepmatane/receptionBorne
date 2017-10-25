@@ -16,9 +16,6 @@ using ReceptionDesBornesModele;
 
 namespace ReceptionDesBornes
 {
-    /// <summary>
-    /// Logique d'interaction pour VueBoueDescription.xaml
-    /// </summary>
     public partial class VueBoueDescription : Window
     {
         private Bouee bouee;
@@ -28,7 +25,15 @@ namespace ReceptionDesBornes
 
             this.bouee = bouee;
 
-            labelIdBoue.Content = "" + bouee.Id;
+            labelIdBoue.Content = "ID : " + bouee.Id;
+            labelLongitudeBoue.Content = "Longitude : " + bouee.Longitude;
+            labelLatitudeBoue.Content = "Latitude : " + bouee.Latitude;
+            labelTemperatureEauBoue.Content = "Temperature eau : " + bouee.TemperatureEau;
+            labelTemperatureAirBoue.Content = "Temperature air : " + bouee.TemperatureAir;
+            labelSaliniteBoue.Content = "Salinite : " + bouee.Salinite;
+            labelVitesseVentBoue.Content = "Vitesse vent : " + (bouee.VitesseVent).ToString("N4");
+            labelDimensionBoue.Content = "Dimension : " + bouee.Dimension;
+            labelPressionAtmospheriqueBoue.Content = "Pression atmospherique : " + (bouee.PressionAtmospherique).ToString("N4");
         }
 
 
