@@ -27,6 +27,19 @@ namespace ReceptionDesBornes
 
         public void start()
         {
+            
+
+            construireVueListeBouee();
+        }
+
+        public void setVuePrincipale(MainWindow vuePrincipale)
+        {
+            this.vuePrincipale = vuePrincipale;
+        }
+
+        private void construireVueListeBouee()
+        {
+            //A modif avec les donnée du DAO
             List<Bouee> listeBoueeTest = new List<Bouee>();
 
             for (int i = 0; i < 15; i++)
@@ -36,15 +49,10 @@ namespace ReceptionDesBornes
                 listeBoueeTest.Add(boueeTest);
             }
 
-            construireVueListeBouee(listeBoueeTest);
+            afficherListeBouee(listeBoueeTest);
         }
 
-        public void setVuePrincipale(MainWindow vuePrincipale)
-        {
-            this.vuePrincipale = vuePrincipale;
-        }
-
-        private void construireVueListeBouee(List<Bouee> listeBouee)
+        private void afficherListeBouee(List<Bouee> listeBouee)
         {
             vuePrincipale.afficherListeBouee(listeBouee);
         }

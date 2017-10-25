@@ -35,7 +35,5 @@ namespace ReceptionDesBornes
             labelDimensionBoue.Content = "Dimension : " + bouee.Dimension;
             labelPressionAtmospheriqueBoue.Content = "Pression atmospherique : " + (bouee.PressionAtmospherique).ToString("N4");
         }
-
-
     }
 }
