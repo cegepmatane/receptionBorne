@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <ListBox x:Name="listBoxBouee" HorizontalAlignment="Left" Height="301" Margin="10,10,0,0" VerticalAlignment="Top" Width="208"/>
+        <ListBox  HorizontalAlignment="Left" Height="301"  VerticalAlignment="Top" />
+
+        <ListBox ItemsSource="{StaticResource itemListBoxBouee}" x:Name="listBoxBouee" Margin="10,10,0,0" Width="208">
+            
+        </ListBox>
     </Grid>
 </Window>

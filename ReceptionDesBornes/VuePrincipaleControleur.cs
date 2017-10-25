@@ -31,7 +31,7 @@ namespace ReceptionDesBornes
 
             for (int i = 0; i < 15; i++)
             {
-                Bouee boueeTest = new Bouee("Bouée no" + i);
+                Bouee boueeTest = new Bouee(i, 0 + i, 0 + i);
                 //MessageBox.Show(boueeTest.Nom);
                 listeBoueeTest.Add(boueeTest);
             }

@@ -31,14 +31,15 @@ namespace ReceptionDesBornes
 
         private void ListBoxBouee_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            MessageBox.Show(e.Source.ToString());
+            MessageBox.Show(listBoxBouee.SelectedItem.ToString());
         }
 
         public void afficherListeBouee(List<Bouee> listeBouee)
         {
             foreach (Bouee bouee in listeBouee)
             {
-                listBoxBouee.Items.Add(bouee.Nom);
+                //listBoxBouee.Items.Add(bouee.Id);
+                listBoxBouee.Items.Add(new Fra);
             }
         }
 
