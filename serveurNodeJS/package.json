@@ -1,0 +1,17 @@
+{
+  "name": "tcpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.33",
+    "net": "^1.0.2",
+    "read-json": "^1.0.3",
+    "write-json-file": "^2.2.0"
+  }
+}
