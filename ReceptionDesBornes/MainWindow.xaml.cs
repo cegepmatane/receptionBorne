@@ -38,9 +38,10 @@ namespace ReceptionDesBornes
 
         public void afficherListeBouee(List<Bouee> listeBouee)
         {
+            listBoxBouee.Items.Clear();
             foreach (Bouee bouee in listeBouee)
             {
-                listBoxBouee.Items.Add(new ItemBouee() { Nom = "" + bouee.Id, Bouee = bouee});
+                listBoxBouee.Items.Add(new ItemBouee() { Nom = "Id: " + bouee.IdBouee + " Latitude: " + bouee.Latitude + " Longitude: " + bouee.Longitude, Bouee = bouee});
             }
         }
 

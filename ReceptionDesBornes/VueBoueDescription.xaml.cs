@@ -25,7 +25,7 @@ namespace ReceptionDesBornes
 
             this.bouee = bouee;
 
-            labelIdBoue.Content = "ID : " + bouee.Id;
+            labelIdBoue.Content = "ID : " + bouee.IdBouee;
             labelLongitudeBoue.Content = "Longitude : " + bouee.Longitude;
             labelLatitudeBoue.Content = "Latitude : " + bouee.Latitude;
             labelTemperatureEauBoue.Content = "Temperature eau : " + bouee.TemperatureEau;

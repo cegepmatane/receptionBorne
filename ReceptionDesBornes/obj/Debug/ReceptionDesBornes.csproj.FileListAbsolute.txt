@@ -3,7 +3,6 @@ D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesB
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.pdb
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.dll
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.pdb
-D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csprojResolveAssemblyReference.cache
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\MainWindow.g.cs
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\App.g.cs
@@ -37,3 +36,6 @@ C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\Rece
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.pdb
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\VueBoueDescription.g.cs
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\VueBoueDescription.baml
+D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\System.Data.SQLite.dll
+D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueDescription.g.cs
+D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueDescription.baml
