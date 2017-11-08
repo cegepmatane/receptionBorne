@@ -45,13 +45,7 @@ namespace ReceptionDesBornes
                 //listBoxBouee.Items.Add(new ItemBouee() { Nom = "Id: " + bouee.IdBouee + " Latitude: " + bouee.Latitude + " Longitude: " + bouee.Longitude, Bouee = bouee});
 
                 GMapMarker marker = new GMapMarker(new GMap.NET.PointLatLng(bouee.Longitude, bouee.Latitude));
-                marker.Shape = new BoueeShape(bouee)
-                {
-                    Width = 10,
-                    Height = 10,
-                    Stroke = Brushes.Black,
-                    StrokeThickness = 1.5
-                };
+                marker.Shape = new BoueeShape(bouee);
 
                 marker.Shape.MouseUp += Shape_MouseUp;
 

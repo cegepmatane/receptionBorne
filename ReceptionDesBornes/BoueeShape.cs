@@ -29,8 +29,10 @@ namespace ReceptionDesBornes
             ellipse = new EllipseGeometry();
             this.bouee = bouee;
 
-            this.Stroke = Brushes.Gray;
-            this.StrokeThickness = 3;
+            this.Width = 10;
+            this.Height = 10;
+            this.Stroke = Brushes.Black;
+            this.StrokeThickness = 10;
         }
 
         protected override Geometry DefiningGeometry
