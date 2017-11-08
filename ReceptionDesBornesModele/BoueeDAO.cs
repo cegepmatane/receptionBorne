@@ -10,6 +10,7 @@ namespace ReceptionDesBornesModele
     public class BoueeDAO
     {
         private static BoueeDAO instance = null;
+        private static String adresseIPNodeJS = "10.1.50.5";
 
         public static BoueeDAO getInstance()
         {
@@ -23,7 +24,7 @@ namespace ReceptionDesBornesModele
             NetworkStream serverStream = default(NetworkStream);
 
             //ADDRESSE DU SERVEUR NODEJS
-            tcpClient.Connect("10.1.51.57", 3000);
+            tcpClient.Connect(adresseIPNodeJS, 3000);
             
             while (true)
             {

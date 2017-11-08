@@ -16,6 +16,8 @@ namespace ReceptionDesBornes
         private static VuePrincipaleControleur instance = null;
         private MainWindow vuePrincipale;
         private Timer timer;
+        private float positionLongitude;
+        private float positionLatitude;
 
         public static VuePrincipaleControleur getInstance()
         {
@@ -30,9 +32,14 @@ namespace ReceptionDesBornes
 
         public void start()
         {
+            //#### ativer le serveur web pour le DAO
 
+            construireVueListeBouee();
+            //construireVueListeBoueeAvecDAO();
+        }
 
-            //construireVueListeBouee();
+        private void construireVueListeBoueeAvecDAO()
+        {
             timer = new Timer();
             timer.Tick += new EventHandler(timer1_Tick);
             timer.Interval = 5000; 
@@ -51,20 +58,25 @@ namespace ReceptionDesBornes
             this.vuePrincipale = vuePrincipale;
         }
 
-        /*private void construireVueListeBouee()
+        private void construireVueListeBouee()
         {
             //A modif avec les donnée du DAO
             List<Bouee> listeBoueeTest = new List<Bouee>();
 
             for (int i = 0; i < 15; i++)
             {
-                Bouee boueeTest = new Bouee(i, 0 + i, 0 + i);
+                positionLongitude = 48.488232f + (0.1f * i);
+                positionLatitude = -68.601312f + (0.1f * i);
+
+                //MessageBox.Show("Longitude = " + positionLongitude + ", Latitude = " + positionLatitude + " ,i = " + (0.001f * i));
+
+                Bouee boueeTest = new Bouee(i, positionLongitude, positionLatitude);
                 //MessageBox.Show(boueeTest.Nom);
                 listeBoueeTest.Add(boueeTest);
             }
 
             afficherListeBouee(listeBoueeTest);
-        }*/
+        }
 
         private void afficherListeBouee(List<Bouee> listeBouee)
         {
