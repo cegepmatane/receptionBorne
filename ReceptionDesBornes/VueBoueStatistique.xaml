@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReceptionDesBornes"
         mc:Ignorable="d"
-        Title="VueBoueStatistique" Height="300" Width="300">
+        Title="VueBoueStatistique" Height="300" Width="500">
     <Grid>
-        
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="115"/>
+        <RadioButton x:Name="radioButton" Content="minimum" HorizontalAlignment="Left" Margin="24,236,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton1" Content="maximun" HorizontalAlignment="Left" Margin="24,216,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton2" Content="moyenne" HorizontalAlignment="Left" Margin="24,196,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton3" Content="T° eau" HorizontalAlignment="Left" Margin="24,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton4" Content="Salinité" HorizontalAlignment="Left" Margin="24,141,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton5" Content="ATM" HorizontalAlignment="Left" Margin="24,121,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton6" Content="T° air" HorizontalAlignment="Left" Margin="24,101,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox" Content="Bouée 1" HorizontalAlignment="Left" Margin="24,20,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox1" Content="Bouée 2" HorizontalAlignment="Left" Margin="24,40,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox2" Content="Bouée 3" HorizontalAlignment="Left" Margin="24,60,0,0" VerticalAlignment="Top"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="250" Margin="130,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
     </Grid>
 </Window>
