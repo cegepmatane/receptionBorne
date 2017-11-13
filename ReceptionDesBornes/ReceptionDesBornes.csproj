@@ -76,6 +76,9 @@
     <Compile Include="VueBoueDescription.xaml.cs">
       <DependentUpon>VueBoueDescription.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VueBoueStatistique.xaml.cs">
+      <DependentUpon>VueBoueStatistique.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VuePrincipaleControleur.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +93,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="VueBoueDescription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VueBoueStatistique.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

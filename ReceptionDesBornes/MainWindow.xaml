@@ -9,5 +9,6 @@
         Title="Reception Borne" Height="720" Width="1280">
     <Grid>
         <gmaps:GMapControl x:Name="mapView" Loaded="mapView_Loaded" />
+        <Button x:Name="buttonAfficherStatistique" Content="Statistique" HorizontalAlignment="Left" Margin="1189,661,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>

@@ -20,6 +20,8 @@ namespace ReceptionDesBornes
 {
     public partial class MainWindow : Window
     {
+        private List<Bouee> listeBouee;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +30,12 @@ namespace ReceptionDesBornes
             VuePrincipaleControleur.getInstance().start();
 
             //listBoxBouee.MouseDoubleClick += ListBoxBouee_MouseDoubleClick;
+            buttonAfficherStatistique.Click += ButtonAfficherStatistique_Click;
+        }
+
+        private void ButtonAfficherStatistique_Click(object sender, RoutedEventArgs e)
+        {
+            actionAfficherVueBoueStatistique(this.listeBouee);
         }
 
         /*private void ListBoxBouee_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -39,6 +47,8 @@ namespace ReceptionDesBornes
 
         public void afficherListeBouee(List<Bouee> listeBouee)
         {
+            this.listeBouee = listeBouee;
+
             //listBoxBouee.Items.Clear();
             foreach (Bouee bouee in listeBouee)
             {
@@ -57,6 +67,12 @@ namespace ReceptionDesBornes
         {
             //MessageBox.Show(" id = " + ((BoueeShape)sender).Bouee.Id);
             actionAfficherVueBoueDescription(((BoueeShape)sender).Bouee);
+        }
+
+        private void actionAfficherVueBoueStatistique(List<Bouee> listeBouee)
+        {
+            VueBoueStatistique vueBoueStatistique = new VueBoueStatistique(listeBouee);
+            vueBoueStatistique.Show();
         }
 
         private void actionAfficherVueBoueDescription(Bouee bouee)
