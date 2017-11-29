@@ -10,7 +10,7 @@ namespace ReceptionDesBornesModele
     public class BoueeDAO
     {
         private static BoueeDAO instance = null;
-        private static String adresseIPNodeJS = "10.1.50.5";
+        private static String adresseIPNodeJS = "10.1.51.6";
 
         public static BoueeDAO getInstance()
         {

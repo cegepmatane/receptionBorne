@@ -3,6 +3,8 @@ using ReceptionDesBornesModele;
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,8 +73,17 @@ namespace ReceptionDesBornes
 
         private void actionAfficherVueBoueStatistique(List<Bouee> listeBouee)
         {
-            VueBoueStatistique vueBoueStatistique = new VueBoueStatistique(listeBouee);
-            vueBoueStatistique.Show();
+            //VueBoueStatistique vueBoueStatistique = new VueBoueStatistique(listeBouee);
+            //vueBoueStatistique.Show();
+            //System.Diagnostics.Process.Start("java.exe -jar C:\\\\statistiques.jar");
+            //Console.Write(System.Windows.Forms.Application.StartupPath);
+
+            System.Diagnostics.Process clientProcess = new Process();
+            clientProcess.StartInfo.FileName = "java";
+            clientProcess.StartInfo.Arguments = @"-jar statistiques.jar";
+            clientProcess.StartInfo.CreateNoWindow = true;
+            clientProcess.StartInfo.UseShellExecute = false;
+            clientProcess.Start();
         }
 
         private void actionAfficherVueBoueDescription(Bouee bouee)
