@@ -33,7 +33,7 @@ namespace ReceptionDesBornes
         {
             InitializeComponent();
 
-            culture = new CultureInfo("fr-CA");
+            culture = new CultureInfo("en-CA");
 
             Thread.CurrentThread.CurrentUICulture = culture;
 

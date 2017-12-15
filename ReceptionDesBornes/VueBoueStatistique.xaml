@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:ReceptionDesBornes"
         mc:Ignorable="d"
         Title="VueBoueStatistique" Height="300" Width="500">
-    <Grid>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="115"/>
+    <Grid Background="#0698D7">
+        <Rectangle Fill="#003399" HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="115" />
         <RadioButton x:Name="radioButton" Content="minimum" HorizontalAlignment="Left" Margin="24,236,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioButton1" Content="maximun" HorizontalAlignment="Left" Margin="24,216,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="radioButton2" Content="moyenne" HorizontalAlignment="Left" Margin="24,196,0,0" VerticalAlignment="Top"/>
@@ -18,6 +18,6 @@
         <CheckBox x:Name="checkBox" Content="Bouée 1" HorizontalAlignment="Left" Margin="24,20,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBox1" Content="Bouée 2" HorizontalAlignment="Left" Margin="24,40,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBox2" Content="Bouée 3" HorizontalAlignment="Left" Margin="24,60,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="250" Margin="130,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
+        <Rectangle Fill="#003399" HorizontalAlignment="Left" Height="250" Margin="130,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="354"/>
     </Grid>
 </Window>

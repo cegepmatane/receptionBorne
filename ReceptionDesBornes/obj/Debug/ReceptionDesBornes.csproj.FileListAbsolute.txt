@@ -55,3 +55,34 @@ C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\fr-C
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\en-CA\ReceptionDesBornes.resources.dll
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.en-CA.resources
 C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\en-CA\ReceptionDesBornes.resources.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe.config
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.exe
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.pdb
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.exe
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornes.pdb
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\fr-CA\ReceptionDesBornes.resources.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\en-CA\ReceptionDesBornes.resources.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\GMap.NET.Core.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\GMap.NET.WindowsPresentation.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\System.Data.SQLite.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\ReceptionDesBornesModele.pdb
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csprojResolveAssemblyReference.cache
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\MainWindow.g.cs
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueDescription.g.cs
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueStatistique.g.cs
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\App.g.cs
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.cache
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes_MarkupCompile.lref
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\MainWindow.baml
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueDescription.baml
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueStatistique.baml
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.g.resources
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Properties.Resources.resources
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.resources
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.fr-CA.resources
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.en-CA.resources
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.csproj.GenerateResource.Cache
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\fr-CA\ReceptionDesBornes.resources.dll
+D:\Cours\Canada\BDD\receptionBorne\ReceptionDesBornes\obj\Debug\en-CA\ReceptionDesBornes.resources.dll

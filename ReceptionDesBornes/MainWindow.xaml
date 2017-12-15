@@ -8,7 +8,10 @@
         mc:Ignorable="d"
         Title="Reception Borne" Height="720" Width="1280">
     <Grid>
-        <gmaps:GMapControl x:Name="mapView" Loaded="mapView_Loaded" />
-        <Button x:Name="buttonAfficherStatistique" Content="Statistique" HorizontalAlignment="Left" Margin="1189,661,0,0" VerticalAlignment="Top" Width="75"/>
+        
+        <gmaps:GMapControl x:Name="mapView" Loaded="mapView_Loaded" >
+        </gmaps:GMapControl>
+        <Button x:Name="buttonAfficherStatistique" Content="Statistique" HorizontalAlignment="Left" Margin="1189,661,0,0" VerticalAlignment="Top" Width="75" Background="#0698D7" Foreground="White"/>
+        <Image x:Name="logo_png" Margin="980,10,11.6,598.4" Source="logo.png" Stretch="Fill"/>
     </Grid>
 </Window>
