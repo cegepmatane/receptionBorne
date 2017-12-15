@@ -68,5 +68,86 @@ namespace ReceptionDesBornes.Resources {
                 return ResourceManager.GetString("buttonAfficherStatistique", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Dimension.
+        /// </summary>
+        internal static string labelDimensionBoue {
+            get {
+                return ResourceManager.GetString("labelDimensionBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à ID.
+        /// </summary>
+        internal static string labelIdBoue {
+            get {
+                return ResourceManager.GetString("labelIdBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Latitude.
+        /// </summary>
+        internal static string labelLatitudeBoue {
+            get {
+                return ResourceManager.GetString("labelLatitudeBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Longitude.
+        /// </summary>
+        internal static string labelLongitudeBoue {
+            get {
+                return ResourceManager.GetString("labelLongitudeBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pression atmospherique.
+        /// </summary>
+        internal static string labelPressionAtmospheriqueBoue {
+            get {
+                return ResourceManager.GetString("labelPressionAtmospheriqueBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Salinite.
+        /// </summary>
+        internal static string labelSaliniteBoue {
+            get {
+                return ResourceManager.GetString("labelSaliniteBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Temperature air.
+        /// </summary>
+        internal static string labelTemperatureAirBoue {
+            get {
+                return ResourceManager.GetString("labelTemperatureAirBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Temperature eau.
+        /// </summary>
+        internal static string labelTemperatureEauBoue {
+            get {
+                return ResourceManager.GetString("labelTemperatureEauBoue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Vitesse vent.
+        /// </summary>
+        internal static string labelVitesseVentBoue {
+            get {
+                return ResourceManager.GetString("labelVitesseVentBoue", resourceCulture);
+            }
+        }
     }
 }

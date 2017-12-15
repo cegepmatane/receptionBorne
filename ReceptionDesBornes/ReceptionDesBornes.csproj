@@ -88,13 +88,13 @@
     </ApplicationDefinition>
     <Compile Include="BoueeShape.cs" />
     <Compile Include="ItemBouee.cs" />
-    <Compile Include="Resources\String.en-CA.Designer.cs">
-      <DependentUpon>String.en-CA.resx</DependentUpon>
+    <Compile Include="Resources\String.fr-CA.Designer.cs">
+      <DependentUpon>String.fr-CA.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Resources\String.fr-CA.Designer.cs">
-      <DependentUpon>String.fr-CA.resx</DependentUpon>
+    <Compile Include="Resources\String.en-CA.Designer.cs">
+      <DependentUpon>String.en-CA.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -149,13 +149,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\String.en-CA.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>String.en-CA.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\String.fr-CA.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>String.fr-CA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\String.en-CA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>String.en-CA.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\String.resx">
       <Generator>ResXFileCodeGenerator</Generator>

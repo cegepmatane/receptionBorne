@@ -27,12 +27,15 @@ namespace ReceptionDesBornes
     public partial class MainWindow : Window
     {
         private List<Bouee> listeBouee;
+        private CultureInfo culture;
 
         public MainWindow()
         {
             InitializeComponent();
 
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-CA");
+            culture = new CultureInfo("fr-CA");
+
+            Thread.CurrentThread.CurrentUICulture = culture;
 
             ResourceManager rm = new ResourceManager("ReceptionDesBornes.Resources.String", Assembly.GetExecutingAssembly());
 
@@ -98,7 +101,7 @@ namespace ReceptionDesBornes
 
         private void actionAfficherVueBoueDescription(Bouee bouee)
         {
-            VueBoueDescription vueBoueDescription = new VueBoueDescription(bouee);
+            VueBoueDescription vueBoueDescription = new VueBoueDescription(bouee, culture);
             vueBoueDescription.Show();
         }
 

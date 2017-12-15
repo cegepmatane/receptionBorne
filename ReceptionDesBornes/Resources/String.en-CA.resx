@@ -118,6 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="buttonAfficherStatistique" xml:space="preserve">
-    <value>Statistics</value>
+    <value>Statistical</value>
+  </data>
+  <data name="labelDimensionBoue" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="labelIdBoue" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="labelLatitudeBoue" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="labelLongitudeBoue" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="labelPressionAtmospheriqueBoue" xml:space="preserve">
+    <value>Atmospheric pressure</value>
+  </data>
+  <data name="labelSaliniteBoue" xml:space="preserve">
+    <value>Salinity</value>
+  </data>
+  <data name="labelTemperatureAirBoue" xml:space="preserve">
+    <value>Air temperature</value>
+  </data>
+  <data name="labelTemperatureEauBoue" xml:space="preserve">
+    <value>Water temperature</value>
+  </data>
+  <data name="labelVitesseVentBoue" xml:space="preserve">
+    <value>Wind speed</value>
   </data>
 </root>

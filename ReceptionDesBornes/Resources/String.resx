@@ -120,4 +120,31 @@
   <data name="buttonAfficherStatistique" xml:space="preserve">
     <value>Statistique</value>
   </data>
+  <data name="labelDimensionBoue" xml:space="preserve">
+    <value>Dimension</value>
+  </data>
+  <data name="labelIdBoue" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="labelLatitudeBoue" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="labelLongitudeBoue" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="labelPressionAtmospheriqueBoue" xml:space="preserve">
+    <value>Pression atmospherique</value>
+  </data>
+  <data name="labelSaliniteBoue" xml:space="preserve">
+    <value>Salinite</value>
+  </data>
+  <data name="labelTemperatureAirBoue" xml:space="preserve">
+    <value>Temperature air</value>
+  </data>
+  <data name="labelTemperatureEauBoue" xml:space="preserve">
+    <value>Temperature eau</value>
+  </data>
+  <data name="labelVitesseVentBoue" xml:space="preserve">
+    <value>Vitesse vent</value>
+  </data>
 </root>
