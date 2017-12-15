@@ -4,9 +4,13 @@ using ReceptionDesBornesModele;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Resources;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,6 +31,12 @@ namespace ReceptionDesBornes
         public MainWindow()
         {
             InitializeComponent();
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-CA");
+
+            ResourceManager rm = new ResourceManager("ReceptionDesBornes.Resources.String", Assembly.GetExecutingAssembly());
+
+            buttonAfficherStatistique.Content = rm.GetString("buttonAfficherStatistique");
 
             VuePrincipaleControleur.getInstance().setVuePrincipale(this);
             VuePrincipaleControleur.getInstance().start();

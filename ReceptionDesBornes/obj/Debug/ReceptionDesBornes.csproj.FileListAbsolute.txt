@@ -48,3 +48,10 @@ D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\GMap.NET.Wind
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\bin\Debug\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueStatistique.g.cs
 D:\Utilisateur\Desktop\receptionBorne\ReceptionDesBornes\obj\Debug\VueBoueStatistique.baml
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\fr-CA\ReceptionDesBornes.resources.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.resources
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.fr-CA.resources
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\fr-CA\ReceptionDesBornes.resources.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\bin\Debug\en-CA\ReceptionDesBornes.resources.dll
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\ReceptionDesBornes.Resources.String.en-CA.resources
+C:\A2017\visual studio 2015\ReceptionDesBornes\ReceptionDesBornes\obj\Debug\en-CA\ReceptionDesBornes.resources.dll
